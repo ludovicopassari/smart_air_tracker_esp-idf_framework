@@ -1,0 +1,5 @@
+.pio
+.DS_Store
+.idea
+platformio.ini
+sdkconfig.nodemcu-32s
