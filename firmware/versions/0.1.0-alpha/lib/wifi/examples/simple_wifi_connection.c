@@ -1,5 +1,7 @@
-
-#include "wifi.h"
+//
+// Created by Ludovico Passari on 01/11/24.
+//
+#include "../src/wifi.h"
 
 void init_nvs() {
   esp_err_t ret = nvs_flash_init();
@@ -11,8 +13,10 @@ void init_nvs() {
 }
 
 
+
 void app_main() {
   ESP_LOGI(TAG_MAIN, "Program start...");
   init_nvs();
   wifi_init();
 }
+
