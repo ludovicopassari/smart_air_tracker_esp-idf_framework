@@ -2,7 +2,7 @@
 // Created by Ludovico Passari on 01/11/24.
 //
 
-#include "wifi.h"
+#include "wifi_utils.h"
 
 static const char *WIFI_TAG = "WiFiModule";
 

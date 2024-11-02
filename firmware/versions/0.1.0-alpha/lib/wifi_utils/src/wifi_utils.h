@@ -2,8 +2,8 @@
 // Created by Ludovico Passari on 01/11/24.
 //
 
-#ifndef INC_0_1_0_ALPHA_WIFI_H
-#define INC_0_1_0_ALPHA_WIFI_H
+#ifndef INC_0_1_0_ALPHA_WIFI_UTILS_H
+#define INC_0_1_0_ALPHA_WIFI_UTILS_H
 
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
@@ -25,4 +25,4 @@ void wifi_init(void);
 
 void wifi_event_handler(void *arg, esp_event_base_t event_base, int32_t event_id, void *event_data);
 
-#endif //INC_0_1_0_ALPHA_WIFI_H
+#endif //INC_0_1_0_ALPHA_WIFI_UTILS_H
